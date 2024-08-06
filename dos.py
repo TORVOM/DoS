@@ -41,6 +41,7 @@ def request():
 
         sleep(tempo_envio)
         resposta = requests.get(site, data=dados_txt, headers=headers, proxies=proxies)
+        print(f"{40*"—"}\nUSER AGENT —> {user_agent}")
         print(resposta)
 
 # repetis fumção request()
