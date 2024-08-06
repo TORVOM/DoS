@@ -42,7 +42,7 @@ def request():
 
         sleep(tempo_envio)
         resposta = requests.get(site, data=dados_txt, headers=headers, proxies=proxies)
-        print(f"\033[34m{40*"—"}\nUSER AGENT —> {user_agent}\n")
+        print(f"\033[34m{40*'—'}\nUSER AGENT —> {user_agent}\n")
         print(resposta,"\033[m")
 
 # repetis fumção request()
