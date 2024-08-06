@@ -1,4 +1,4 @@
-# PRA QUEÊ SERVE CADA ARQUIVO?
+# PRA QUÊ SERVE CADA ARQUIVO?
 __off.txt__ -> o nome desse arquivo deve ser inserido quando o script pedir um arquivo para enviar. nesse arquivo contem apenas texto aleatório e você pode alterar para qualquer coisa. Obs: isso sera enviado no site indicado para o ataque
 
 __users-agents.txt__ -> basicamente, isso são dados de outros navegadores e dispositivos que ir ser usados na requisição oara esconder o navegador e dispositivo usado por você( usuario do script DoS )
