@@ -36,13 +36,14 @@ def request():
     while True:
         # escolher um user agent aleatorio
         opcao_UA = random.randint(0,13)
+
         user_agent = users_agents[opcao_UA]
         headers = {"User-Agent":user_agent}
 
         sleep(tempo_envio)
         resposta = requests.get(site, data=dados_txt, headers=headers, proxies=proxies)
-        print(f"{40*"—"}\nUSER AGENT —> {user_agent}")
-        print(resposta)
+        print(f"\033[34m{40*"—"}\nUSER AGENT —> {user_agent}\n")
+        print(resposta,"\033[m")
 
 # repetis fumção request()
 cod1 = multiprocessing.Process(target=request)
